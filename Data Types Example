@@ -1,0 +1,37 @@
+# Basic Python program to demonstrate various data types
+
+# Integer (int): Whole numbers, positive or negative
+age = 25
+print("Age (Integer):", age)
+
+# Float: Numbers with a decimal point
+height = 5.9
+print("Height (Float):", height)
+
+# String (str): A sequence of characters
+name = "Alice"
+print("Name (String):", name)
+
+# Boolean (bool): True or False values
+is_student = True
+print("Is student (Boolean):", is_student)
+
+# List: An ordered, mutable collection of items
+fruits = ["Apple", "Banana", "Cherry"]
+print("Fruits (List):", fruits)
+
+# Tuple: An ordered, immutable collection of items
+coordinates = (10, 20)
+print("Coordinates (Tuple):", coordinates)
+
+# Dictionary (dict): Key-value pairs
+person = {"name": "Alice", "age": 25, "is_student": True}
+print("Person (Dictionary):", person)
+
+# Set: An unordered collection of unique items
+unique_numbers = {1, 2, 3, 3, 4}
+print("Unique numbers (Set):", unique_numbers)
+
+# None: Represents the absence of a value
+nothing = None
+print("Nothing (None):", nothing)
