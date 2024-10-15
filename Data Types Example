@@ -9,7 +9,7 @@ height = 5.9
 print("Height (Float):", height)
 
 # String (str): A sequence of characters
-name = "Alice"
+name = "Irfaan"
 print("Name (String):", name)
 
 # Boolean (bool): True or False values
