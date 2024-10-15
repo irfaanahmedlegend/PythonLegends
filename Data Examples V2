@@ -1,0 +1,18 @@
+# Basic Python program to demonstrate various data types with input
+
+# Integer (int): Whole numbers, positive or negative
+age = int(input("Enter your age (Integer): "))  # Convert input to an integer
+print("Age (Integer):", age)
+
+# Float: Numbers with a decimal point
+height = float(input("Enter your height in meters (Float): "))  # Convert input to a float
+print("Height (Float):", height)
+
+# String (str): A sequence of characters
+name = input("Enter your name (String): ")  # Input is automatically a string
+print("Name (String):", name)
+
+# Boolean (bool): True or False values (needs manual input handling)
+is_student_input = input("Are you a student? (yes/no): ").lower()
+is_student = (is_student_input == 'yes')  # Convert 'yes' or 'no' to a boolean
+print("Is student (Boolean):", is_student)
